@@ -1,0 +1,124 @@
+body {
+    margin: 0 120px;
+    background: #000;
+    color: #fff;
+}
+h1{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #149ba0;
+    padding-left: 50px;
+    border: 2px solid rgb(86, 187, 182);
+    border-radius: 5px;
+}
+h1:hover{
+    background-color: #065153;
+}
+.container {
+    margin-top: 60px;
+    display: flex;
+}
+
+.todos,
+.todo-form {
+    margin: 0 30px;
+    margin-right: 50px;
+}
+
+.todo-form {
+    width: 30%;
+}
+
+.todos {
+    width: 70%;
+}
+
+.todo-table {
+    width: 100%;
+    border: none;
+
+}
+#text{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    border: 5px solid rgb(118, 178, 180);
+}
+#textarea{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    border: 5px solid rgb(118, 166, 180);
+}
+.submit-btn{
+    background-color: green;
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.submit-btn:hover{
+    background-color: rgb(36, 83, 36);
+}
+.reset-btn{
+    background-color: rgb(233, 65, 42);
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reset-btn:hover{
+    background-color: rgb(131, 20, 6);
+}
+.todo-table th, td {
+  text-align: left;
+}
+
+.margin {
+    margin: 8px 0;
+    width: 100%;
+}
+
+.todo-task-input {
+    height: 25px;
+}
+
+.todo-table-body tr{
+    background: #fafafa;
+    color: #000;
+}
+.remove-todo{
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.remove-todo:hover{
+    background-color: brown;
+    color: #fff;
+}
+.todo-table thead{
+    padding-top: 15px;
+}
+.todo-table thead tr th{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.todos{
+   background-color: rgb(226, 236, 236);
+   color: black;
+   font-size: 20px;
+   border-radius: 5px;
+   margin-left: 30px;
+   padding-left: 20px;
+   border: 5px solid rgb(118, 171, 180);
+}
